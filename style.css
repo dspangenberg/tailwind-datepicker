@@ -2,3 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+div.calendar-weeks .weeks .week {
+  @apply block flex-1 border-2 rounded-lg cursor-default text-center text-gray-900 !font-normal text-sm
+}
